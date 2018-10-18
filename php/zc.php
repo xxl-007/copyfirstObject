@@ -13,7 +13,7 @@ if($rows){
 //用户存在
         echo "<script>
                 alert('用户已存在，请重新注册用户名');
-                location.href='regester';
+                location.href='../regester.html';
             </script>";
     }else{
 // 用户不存在
