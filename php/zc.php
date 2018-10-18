@@ -20,7 +20,7 @@ if($rows){
 $result=$coon->query($sql2);
 echo "<script>
         alert('用户注册成功,请登录');
-        location.href='login';
+        location.href='../login.html';
     </script>";
 }  
 
