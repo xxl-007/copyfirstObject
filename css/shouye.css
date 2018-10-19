@@ -11,6 +11,7 @@ img{border:0;}
 #top .top-con .left{float:left;}
 .top-con li{float:left;}
 .top-con .left li{margin-left:5px;}
+#top .top-con .left li:first-child a{color:orange;z-index: 999;font-weight: bold;}
 .top-con .right li{margin-left:24px;}
 #top .top-con .right{float:right;}
 #top .left a{color:#666;}

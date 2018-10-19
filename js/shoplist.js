@@ -15,7 +15,7 @@ var big = function () {
                 _this.$draft.style.display = "block";
                 _this.$shopimg2.style.display = "block";
                 var _x = this.offsetLeft + _this.$draft.offsetWidth / 2+this.parentNode.offsetLeft;
-                var _y = this.offsetTop + _this.$draft.offsetHeight / 2+this.parentNode.offsetTop ;
+                var _y = this.offsetTop + _this.$draft.offsetHeight / 2+this.parentNode.offsetTop+this.parentNode.parentNode.offsetTop;
                 var maxx = this.clientWidth - _this.$draft.offsetWidth;
                 var maxy = this.clientHeight - _this.$draft.offsetHeight;
                 console.log(_y,this.offsetTop,this.parentNode.offsetTop,this.parentNode.offsetParent)
